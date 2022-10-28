@@ -165,7 +165,7 @@ function startTimer() {
 //una funzione che viene mostrata alla fine quando sono tutte le risposte esatte
 
 function modal() {
-    if (iconsFind.length == 2) {
+    if (iconsFind.length == 24) {
         clearInterval(interval);
         modal.classList.add('active')
         document.getElementById('tempoTrascorso').innerHTML = timer.innerHTML;
